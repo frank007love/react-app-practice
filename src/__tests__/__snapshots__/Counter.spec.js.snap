@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Counter> Counter snapshot 1`] = `
+Array [
+  <div>
+    Counter is 
+    0
+  </div>,
+  <button
+    onClick={[Function]}
+  >
+    child button +5
+  </button>,
+]
+`;
