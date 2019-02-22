@@ -1,23 +1,10 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<CounterComp> CounterComp snapshot 1`] = `
-Array [
-  <div>
-    This is a example: 
-    0
-    .
-  </div>,
-  <button
-    onClick={[Function]}
-  >
-    count+1
-  </button>,
-]
-`;
-
 exports[`<CounterFunc> CounterFunc snapshot 1`] = `
 Array [
-  <div>
+  <div
+    aria-label="counter-val"
+  >
     This is a example: 
     0
     .

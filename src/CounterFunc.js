@@ -5,7 +5,7 @@ function CounterFunc() {
 
     return (
         <>
-            <div>This is a example: {count}.</div>
+            <div aria-label="counter-val">This is a example: {count}.</div>
             <button onClick={()=>setCount(count+1)}>count+1</button>
         </>
     )

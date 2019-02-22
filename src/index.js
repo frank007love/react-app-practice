@@ -5,6 +5,7 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import Example from './Example';
+import UserList from './UserList';
 
 //ReactDOM.render(<App />, document.getElementById('root'));
 
@@ -13,4 +14,5 @@ import Example from './Example';
 // Learn more about service workers: http://bit.ly/CRA-PWA
 //serviceWorker.unregister();
 
-ReactDOM.render(<Example />, document.getElementById('root'));
+//ReactDOM.render(<Example />, document.getElementById('root'));
+ReactDOM.render(<UserList />, document.getElementById('root'));
